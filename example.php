@@ -14,7 +14,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-require_once '../api.php';
+require_once 'api.php';
 $channelAccessToken = '<your channel access token>';
 $channelSecret = '<your channel secret>';
 $client = new LINEAPI($channelAccessToken, $channelSecret);
